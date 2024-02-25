@@ -36,7 +36,7 @@ function Populate() { //kártyák össze állítása
 
 function Shuffle() {
   cards.sort(() => 0.6 - Math.random());
-  cards.forEach(card => gameBoard.appendChild(card));
+  cards.forEach(card => gameBoard.appendChild(card));       //kevert kártyák megjelenítése 
 }
 
 let selectedCards = [];
