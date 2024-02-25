@@ -1,10 +1,14 @@
+body{
+  background-color: #202124;
+}
+
 .card {
   width: 200px;
   height: 325px;
   margin: none;
   border: none;
   perspective: 1000px;
-
+  background-color: #202124;
 }
 
 .card-inner {
